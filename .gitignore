@@ -1,0 +1,12 @@
+# Power BI / PBIP
+*.pbix
+*.zip
+*.tmp
+~
+.DS_Store
+Thumbs.db
+*.cache
+*.dat
+
+**/.pbi/localSettings.json
+**/.pbi/cache.abf

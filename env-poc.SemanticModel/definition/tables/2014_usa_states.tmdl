@@ -58,7 +58,7 @@ table 2014_usa_states
 				in
 				    #"Change Type"
 
-	annotation PBI_ResultType = Exception
+	annotation PBI_ResultType = Table
 
 	annotation PBI_NavigationStepName = Navigation
 

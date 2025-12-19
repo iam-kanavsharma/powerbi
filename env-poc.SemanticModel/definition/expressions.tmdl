@@ -1,4 +1,4 @@
-expression pEnvironment = "dev" meta [IsParameterQuery=true, List={"dev", "qa", "prod"}, DefaultValue="dev", Type="Text", IsParameterQueryRequired=true]
+expression pEnvironment = "qa" meta [IsParameterQuery=true, List={"dev", "qa", "prod"}, DefaultValue="dev", Type="Text", IsParameterQueryRequired=true]
 	lineageTag: 94f0eb2d-9875-4c42-a82a-263252d61b0f
 
 	annotation PBI_NavigationStepName = Navigation

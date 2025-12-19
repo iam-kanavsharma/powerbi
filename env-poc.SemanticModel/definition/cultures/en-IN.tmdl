@@ -2,8 +2,583 @@ cultureInfo en-IN
 
 	linguisticMetadata =
 			{
-			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "entity_2014_usa_state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2014_usa_states"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2014 usa state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "2014_usa_states": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "usa state": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "2014 usa location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "2014 usa province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "2014 usa territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "2014 usa nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "usa location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "usa province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "usa territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "usa nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "2014 usa condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "2014 usa country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2014_usa_state.rank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2014_usa_states",
+			          "ConceptualProperty": "Rank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "flourishing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sheer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "absolute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2014_usa_state.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2014_usa_states",
+			          "ConceptualProperty": "State"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "State for QA": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2014_usa_state.postal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2014_usa_states",
+			          "ConceptualProperty": "Postal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "postal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mail": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mailing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "posting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "delivery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "entity_2014_usa_state.population": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "2014_usa_states",
+			          "ConceptualProperty": "Population"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "population": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "populace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "entity_2014_usa_state_is_large": {
+			      "Binding": {
+			        "ConceptualEntity": "2014_usa_states"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_2014_usa_state": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state"
+			          }
+			        },
+			        "entity_2014_usa_state.population": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state.population"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "entity_2014_usa_state"
+			            },
+			            "Adjectives": [
+			              {
+			                "large": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "big": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "populated": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "small": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "entity_2014_usa_state.population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "population_indicates_how_large_2014_usa_states_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_2014_usa_state"
+			            },
+			            "Object": {
+			              "Role": "entity_2014_usa_state.population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing2014_usa_states_have_populations"
+			        }
+			      ]
+			    },
+			    "entity_2014_usa_state_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "2014_usa_states"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_2014_usa_state": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state"
+			          }
+			        },
+			        "entity_2014_usa_state.state": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "entity_2014_usa_state.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "entity_2014_usa_state"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "entity_2014_usa_state.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing2014_usa_states_are_in_states"
+			        }
+			      ]
+			    },
+			    "entity_2014_usa_state_has_rank": {
+			      "Binding": {
+			        "ConceptualEntity": "2014_usa_states"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_2014_usa_state": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state"
+			          }
+			        },
+			        "entity_2014_usa_state.rank": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state.rank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_2014_usa_state"
+			            },
+			            "Object": {
+			              "Role": "entity_2014_usa_state.rank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing2014_usa_states_have_ranks"
+			        }
+			      ]
+			    },
+			    "entity_2014_usa_state_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "2014_usa_states"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_2014_usa_state": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state"
+			          }
+			        },
+			        "entity_2014_usa_state.state": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_2014_usa_state"
+			            },
+			            "Object": {
+			              "Role": "entity_2014_usa_state.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing2014_usa_states_have_states"
+			        }
+			      ]
+			    },
+			    "entity_2014_usa_state_has_postal": {
+			      "Binding": {
+			        "ConceptualEntity": "2014_usa_states"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_2014_usa_state": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state"
+			          }
+			        },
+			        "entity_2014_usa_state.postal": {
+			          "Target": {
+			            "Entity": "entity_2014_usa_state.postal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_2014_usa_state"
+			            },
+			            "Object": {
+			              "Role": "entity_2014_usa_state.postal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing2014_usa_states_have_postal"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
 			}
 		contentType: json
 

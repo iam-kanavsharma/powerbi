@@ -26,8 +26,9 @@
                 }
               },
               "queryRef": "2014_usa_states.State",
-              "nativeQueryRef": "State",
-              "active": true
+              "nativeQueryRef": "State for QA",
+              "active": true,
+              "displayName": "State for QA"
             }
           ]
         },
